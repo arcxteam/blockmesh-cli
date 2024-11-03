@@ -1,4 +1,4 @@
-FOTO FOTO
+FOTO UTAMA
 
 # Blockmesh Node, Run Validator Extension with Docker - Full Guides CLI
 
@@ -19,6 +19,10 @@ BlockMesh Network adalah proyek jaringan proxy terdesentralisasi yang memungkink
 **1. Persyaratan hardware VPS** 
 
 `Untuk menjalankan node extension sebagai CLI, perlu Linux server (VPS) spesifikasi rendah kentang bang`
+
+![Desktop-screenshot-11-03-2024_03_31_PM](https://github.com/user-attachments/assets/9076e52e-e7a1-4cb4-b22f-d3b166fd78a7)
+
+
 | Spesifikasi                       | Rincian                                       |
 |-----------------------------------|----------------------------------------------|
 | RAM                               | 1-4 GB                                       |
@@ -71,6 +75,11 @@ docker run -d --name blockmesh-cli-container blockmesh-cli
 ```
 - **SELESAI**, Node-CLI sudah berjalan pada Docker
 - Cek pada dashboard website, apakah sudah `Connected` dengan IP Address VPS  [app.blockmesh.xyz](https://app.blockmesh.xyz/register?invite_code=4441bdfe-90b2-4e99-b899-d2375d36fc30)
+
+![Desktop-screenshot-11-03-2024_03_37_PM](https://github.com/user-attachments/assets/8af1b035-39bb-4129-8655-58f9fdb06856)
+
+![BlockMesh-Network-11-02-2024_11_58_PM](https://github.com/user-attachments/assets/7a5fa7d1-404e-46f7-90fe-c5d7a91f1ae0)
+
 
 ## 3. Jika Ada Pembaruan Versi & Diharuskan
 
