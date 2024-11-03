@@ -1,4 +1,4 @@
-FOTO UTAMA
+![IMG_1168](https://github.com/user-attachments/assets/01cf3f62-0213-4a0e-ad64-4b93d06c4228)
 
 # Blockmesh Node, Run Validator Extension with Docker - Full Guides CLI
 
@@ -60,7 +60,7 @@ cd blockmesh-cli
 
 - Edit alamat EMAIL=email_anda@example..com
 - Edit alamat PASSWORD=password_anda
-- Jalankan jangan lupa tanda (.) diakhir harus, tunggu beberapa menit dan siapkan kopi
+- Jalankan jangan lupa tanda titik (.) diakhir harus, tunggu beberapa menit dan siapkan kopi
 - Baiknya jangan langsung copas di ssh, copas dulu dicatatan (menghindari salah perintah)
   
 ```
@@ -68,7 +68,7 @@ docker build -t blockmesh-cli --build-arg EMAIL=email_anda@example.com --build-a
 ```
 **CONTOH : docker build -t blockmesh-cli --build-arg EMAIL=bangsat69@gmail.com --build-arg PASSWORD=bangudahbang .**
 
-- Jika sudah selesai build-docker, Selanjutnya paste perintah ini
+- Jika sudah selesai build-docker, **Selanjutnya** paste perintah ini
 
 ```
 docker run -d --name blockmesh-cli-container blockmesh-cli
@@ -83,7 +83,7 @@ docker run -d --name blockmesh-cli-container blockmesh-cli
 
 ## 3. Jika Ada Pembaruan Versi & Diharuskan
 
-Setiap anda instal build Dockerfile repo ini sudah `versi terbaru` dan jika ingin update cek saja rilis versi terbarunya https://github.com/block-mesh/block-mesh-monorepo/releases
+Setiap instal build Dockerfile repo ini sudah `versi terbaru` dan jika ingin update versi terbarunya cek https://github.com/block-mesh/block-mesh-monorepo/releases
 
 **1. Cara Update**
 
@@ -108,6 +108,6 @@ docker run -d --name blockmesh-cli-container blockmesh-cli
 - Melihat penggunaan cpu/ram dll **docker stats**
 - docker ps | grep blockmesh-cli-container
 
-`Bahaya Hapus Semua Blockmesh Node-CLI`
+`Hapus Semua Blockmesh Node-CLI`
 
-- Perintah hapus **docker stop blockmesh-cli-container && docker rm blockmesh-cli-container && rm -rf target/release**
+- Jalankan hapus **docker stop blockmesh-cli-container && docker rm blockmesh-cli-container && rm -rf target/release**
