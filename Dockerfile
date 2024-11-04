@@ -26,6 +26,7 @@ RUN curl -sLO https://github.com/block-mesh/block-mesh-monorepo/releases/latest/
       && chmod +x blockmesh-cli-arm64
 
 RUN echo '#!/bin/bash\n\
+echo "Starting Blockmesh CLI..."\n\
 set -x\n\
 if [ "$(arch)" = "x86_64" ] ; then\n\
 exec /opt/blockmesh-cli-amd64 --email "$EMAIL" --password "$PASSWORD"\n\
