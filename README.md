@@ -1,6 +1,6 @@
 ![IMG_1168](https://github.com/user-attachments/assets/01cf3f62-0213-4a0e-ad64-4b93d06c4228)
 
-# Blockmesh Node, Run Validator Extension with Docker - Full Guides CLI
+# A Complete Guide - Run Blockmesh CLI Node Validator Extension with Docker
 
 BlockMesh Network adalah proyek jaringan proxy terdesentralisasi yang memungkinkan pengguna mengakses internet secara aman dan privat melalui sistem sentinel node berjalan pada Solana blockchain.
 
