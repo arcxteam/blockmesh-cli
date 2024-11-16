@@ -81,13 +81,14 @@ docker run -d --name blockmesh-cli-container blockmesh-cli
 ![BlockMesh-Network-11-02-2024_11_58_PM](https://github.com/user-attachments/assets/7a5fa7d1-404e-46f7-90fe-c5d7a91f1ae0)
 
 
-## 3. Jika Ada Pembaruan Versi dan Diharuskan
+## 3. Jika Ada Pembaruan Versi
 
 Setiap instal build Dockerfile repo ini sudah `versi terbaru` dan jika ingin update versi terbarunya cek https://github.com/block-mesh/block-mesh-monorepo/releases
 
 **1. Cara Update**
 
 ```
+cd blockmesh-cli && \
 docker rm -f blockmesh-cli-container && \
 docker build -t blockmesh-cli --build-arg EMAIL=email_anda@example.com --build-arg PASSWORD=password_anda . && \
 docker run -d --name blockmesh-cli-container blockmesh-cli && \
@@ -105,12 +106,12 @@ Bagi yang mendapati logs error seperti dibawah ini, bukan masalah kode build-up 
 
 ![Desktop-screenshot-11-04-2024_01_20_PM](https://github.com/user-attachments/assets/63b6c05d-0fe6-47f0-abe0-5e82db85e4e2)
 
-```
-Starting Blockmesh CLI...
-++ arch
-+ '[' x86_64 = x86_64 ']'
-+ exec /opt/blockmesh-cli-amd64 --email bangsat69@gmail.com --password bangudahbang
-2024-11-04.T05:46:08.850294Z ERROR blockmesh_cli::login_mode: Failed to login, did you register on https://app.blockmesh.xyz/register?
+```diff
+- Starting Blockmesh CLI...
+- arch
+- '[' x86_64 = x86_64 ']'
+- exec /opt/blockmesh-cli-amd64 --email bangsat69@gmail.com --password bangudahbang
+- 2024-11-04.T05:46:08.850294Z ERROR blockmesh_cli::login_mode: Failed to login, did you register on https://app.blockmesh.xyz/register?
 ```
 
 ## 4. Perintah CMD/Commands Berguna
