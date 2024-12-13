@@ -5,10 +5,10 @@
 BlockMesh Network adalah proyek jaringan proxy terdesentralisasi yang memungkinkan pengguna mengakses internet secara aman dan privat melalui sistem sentinel node berjalan pada Solana blockchain.
 
 ## He We Go...Gas bang!!!
-*Apakah ada disebutkan dalam FAQ atau Discord, Apakah ada insentif atau poin konversi??*
-> **Insentif apa yang Anda tawarkan untuk berkontribusi pada jaringan? Belum ada konfirmasi untuk masalah ini**
+*Apakah disebutkan dalam FAQ atau Discord, untuk insentif atau poin konversi??*
 
-*Tunggu aja, nanti gue update jika ada konfirmasi dari Dev*
+> [!IMPORTANT]
+> Insentif apa yang Anda tawarkan untuk berkontribusi pada jaringan? Belum ada konfirmasi untuk masalah ini. **Tunggu aja, nanti gue update jika ada konfirmasi dari Dev**
 
 | Aktivitas             | Alokasi |
 |-----------------------|---------|
